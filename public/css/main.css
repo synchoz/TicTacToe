@@ -1,0 +1,41 @@
+
+
+.btn-start {
+    display: block;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transition: 0.1s ease all;
+    background: white;
+    color: black;
+    border: 3px solid black;
+
+    width: 150px;
+    height: 150px;
+
+}
+
+.play-grid{
+    display:inline-grid;
+    width: 300px;
+    height: 300px;
+    grid-template-columns: auto auto auto;
+}
+
+.cell-grid{
+    border: 3px solid black;
+    display:flex;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: bold;
+    transition: background 0.2s ease-in-out;
+}
+
+.cell-grid:hover{
+    cursor: pointer;
+    background: #0ff30f;
+}
+

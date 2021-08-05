@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- My meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TicTacToe"/>
+    <!-- Title -->
+    <title>TicTacToe</title>
+    <!-- Links -->
+   
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<section class="game-section">
+    <h1></h1>
+    <h2></h2>
+    <h3></h3>
+    <button type="button" id="startButton" class="btn-start btn btn-lg">Start
+    </button>
+
+    <div class="play-grid">
+        <button id="cell0" class="cell-grid"></button>
+        <button id="cell1" class="cell-grid"></button>
+        <button id="cell2" class="cell-grid"></button>
+        <button id="cell3" class="cell-grid"></button>
+        <button id="cell4" class="cell-grid"></button>
+        <button id="cell5" class="cell-grid"></button>
+        <button id="cell6" class="cell-grid"></button>
+        <button id="cell7" class="cell-grid"></button>
+        <button id="cell8" class="cell-grid"></button>
+    </div>
+</section>
+
+    <!-- Socket.IO Javacript -->
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="socket.io/socket.io.js"></script>
+    <script src="/js/app.js" charset="utf-8"></script>
+</body>
+</html>
